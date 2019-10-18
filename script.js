@@ -9,7 +9,6 @@ function getDogImage() {
 }
 
 function displayResults(responseJson) {
-  console.log(responseJson);
 
   // Clear the previous results
   $('.results-area').text("");
